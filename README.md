@@ -1,4 +1,7 @@
-# C++ Project Template
+# Battery Pack Simulator
+
+## Project Overview
+This project is a C++ Qt Application that simulates the electrical behavior of a battery pack. It allows users to dynamically construct a pack of individual battery cells, configure their connection type (Series vs. Parallel), and visualize the results of discharging and recharging over time.
 
 This project was generated using the **C++ Project Maker Script** by TrustedBOY.  
 It provides a clean, modular structure with `src/`, `include/`, and `CMake` build support.
@@ -32,11 +35,6 @@ Run it with:
 ```
 
 ProjectName(App) can be change in CMakeLists.txt
-
-# Battery Pack Simulator
-
-## Project Overview
-This project is a C++ Qt Application that simulates the electrical behavior of a battery pack. It allows users to dynamically construct a pack of individual battery cells, configure their connection type (Series vs. Parallel), and visualize the results of discharging and recharging over time.
 
 ## Key Features
 * **Dynamic Battery Creation:** Users can add batteries with custom **Voltage**, **Capacity**, and **Initial Charge** values.
