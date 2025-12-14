@@ -89,10 +89,4 @@ The application follows Object-Oriented Programming (OOP) principles, utilizing 
 * C++11 or higher
 * Qt 5 or Qt 6 Framework
 * CMake (optional, for building)
-🧩 Requirements
-
-    C++17 or later
-
-    CMake 3.10+
-
-    GCC / Clang / MSVC
+* CMake 3.10+
