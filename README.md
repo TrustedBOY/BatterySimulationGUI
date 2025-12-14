@@ -11,9 +11,17 @@ It provides a clean, modular structure with `src/`, `include/`, and `CMake` buil
 
 ```bash
 mkdir build
+```
+```
 cd build
+```
+```
 cmake ..
+```
+```
 make
+```
+
 
 The compiled executable will be located in:
 
