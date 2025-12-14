@@ -19,12 +19,11 @@ void BatteryPack::add(Battery *b)
  */
 void BatteryPack::deleteBattery(int index)
 {
-    if (index >= 0 && index < cells.size())
+    if (index >= 0 && index < static_cast<int>(cells.size()))
     {
         cells.erase(cells.begin() + index);
     }
 }
-
 /**
  * @brief Decreases charge of all batteries in the cell based on the specific discharge rate of every single battery.
  * @param hours Number of hours of usage.

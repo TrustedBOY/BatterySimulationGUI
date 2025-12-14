@@ -27,14 +27,13 @@ make
 
 The compiled executable will be located in:
 
-build/bin/App
+build/bin/BatterySimulator
 
 Run it with:
 ```bash
-./bin/App
+./bin/BatterySimulator
 ```
 
-ProjectName(App) can be change in CMakeLists.txt
 
 ## Key Features
 * **Dynamic Battery Creation:** Users can add batteries with custom **Voltage**, **Capacity**, and **Initial Charge** values.
