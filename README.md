@@ -12,24 +12,24 @@ It provides a clean, modular structure with `src/`, `include/`, and `CMake` buil
 ```bash
 mkdir build
 ```
-```
+```bash
 cd build
 ```
-```
+```bash
 cmake ..
 ```
-```
+```bash
 make
 ```
-
 
 The compiled executable will be located in:
 
 build/bin/App
 
 Run it with:
-
+```bash
 ./bin/App
+```
 
 ProjectName(App) can be change in CMakeLists.txt
 
